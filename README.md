@@ -1,3 +1,7 @@
+# Background
+
+![project-2-challenge](Images/algo-trading-bot-background.JPG)
+
 # Project Goal
 Create an algorithmic trading bot that successfully trades above mentioned coins.
 
