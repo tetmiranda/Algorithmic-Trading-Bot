@@ -42,6 +42,12 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
 
  * DOGE 
  
+ * The precision (ratio of correct positive predictions to the total predicted positives) between the logistic regression and svm model is relatively similar with the exception of the svm training report, which shows a slight dip in the sell signals (-1). However, the logistic regression model shows a much higher yet still relatively weak recall (ratio of correct positive predictions to the total positives examples) when compared to the svm models. Furthermore, the logistic regression model has a higher accuracy when compared with the svc model.
+ 
+Interestingly, the predicted trading algorithm returns fairs better in the svm model compared to the regression model when plotted out. Though, based on this machine learning model reports, these graphs should be taken with a grain of salt.
+
+It is difficult to compare the neural network outcome with the machine learning reports due to different measures of accuracy. Nevertheless, the high degree of accuracy coupled with the neural network algorithm returns plot suggests that it is not a wise investment stratergy.
+ 
 ## Technology
 #### Programming: Python 
 #### Libraries:
