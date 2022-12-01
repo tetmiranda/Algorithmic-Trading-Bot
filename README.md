@@ -10,7 +10,7 @@ Our project is to create an algorithmic trading bot with machine learning that w
 
 Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logistic Regression, SVM, Neural Networks (Keras) and Random Classifier.  
 
-The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the total of the profit and loss.
+The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the buy and sell signals.  Many of these indicators failed.  We used the RSI in our final trading strategy.  
 
  
 ## Data Preparation and Model Training
@@ -21,7 +21,7 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
  * Nulls dropped
  * Columns correctly renamed for later use
 #### Signal Indicators
- * Using EMA crossovers & overbought/oversold RSI and Bolinger Bands to predict when the right time to buy, sell and hold is.
+ * Using EMA crossovers & overbought/oversold RSI and Bollinger Bands to predict when the right time to buy, sell and hold is.
 ### Machine Learning
 ####  Logistic Regression Model
  * We will be using the Logistic Regression model to predict the future portfolio value based on the selected cryptocurrencies.
@@ -29,6 +29,9 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
   * We incorporated the SVM Machine Learning into the Trading Strategy to predict/forecast the crypto price. We then backtested the testing predictions.
 #### Neural Network (Keras)
  * Test neural networks and compare the predictions with the machine learning predictions.
+###  Random Classifier
+
+
 #### Displaying Predicted Portfolio Outcomes
  * Using HVPlot
  
