@@ -31,7 +31,6 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
 #### Displaying Predicted Portfolio Outcomes
  * Using HVPlot
 #### Concluding Analysis
- * Results
  * BITCOIN
 
 
