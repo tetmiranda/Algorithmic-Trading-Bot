@@ -40,9 +40,9 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
 
  * DOGE 
  
-## Technology
+### Technology
 ### Programming: Python 
-### Libraries:
+## Libraries:
     * Pandas - Pandas is a Python library used for working with data sets. It has functions for analyzing, 
       cleaning, exploring, and manipulating data.
     * Yfinance - open source library to access the financial data available on Yahoo Finance. 
