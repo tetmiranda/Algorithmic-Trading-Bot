@@ -24,7 +24,7 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
  * Using EMA crossovers & overbought/oversold RSI and Bolinger Bands to predict when the right time to buy, sell and hold is.
 #### Machine Learning
  * We will be using the Logistic Regression model to predict the future portfolio value based on the selected cryptocurrencies.
-###  SVM Machine Learning
+####  SVM Machine Learning
   * We incorporated the SVM Machine Learning into the Trading Strategy to predict/forecast the crypto price. We then backtested the testing predictions.
 #### Neural Network (Keras)
  * Test neural networks and compare the predictions with the machine learning predictions.
