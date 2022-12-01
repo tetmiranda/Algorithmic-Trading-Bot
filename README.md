@@ -22,7 +22,7 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
  * Columns correctly renamed for later use
 #### Signal Indicators
  * Using EMA crossovers & overbought/oversold RSI and Bolinger Bands to predict when the right time to buy, sell and hold is.
-##### Machine Learning
+### Machine Learning
 ####  Logistic Regression Model
  * We will be using the Logistic Regression model to predict the future portfolio value based on the selected cryptocurrencies.
 ####  SVM  
