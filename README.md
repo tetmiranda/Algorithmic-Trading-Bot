@@ -8,26 +8,36 @@ Create an algorithmic trading bot that successfully trades and outperforms the s
 ## About the project
 Our project is to create an algorithmic trading bot with machine learning that will generate profits at a speed and frequency that is not possible for human traders.  We have selected three crypto currencies to test our bot on (Bitcoin, Ethereum and Dogecoin). As the value of crypto is very volatile our aim is to offset some of this risk by introducing machine learning into our algorithim.  
 
-Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logic Regression, SVM, Neural Networks (Keras) and Random Classifier.  
+Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logistic Regression, SVM, Neural Networks (Keras) and Random Classifier.  
 
-The indicators we used were BB(Boolinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the total of the profit and loss.
+The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the total of the profit and loss.
 
  
 ## Data Preparation and Model Training
 #### Data Preparation
- * Data sourced from Yfinance
+ * Data sourced from Yfinance 
+ * Period used - 2years with with 1 hour intervals
+ * Hourly returns were calculated and nulls dropped
  * Nulls dropped
- * Columns correctly renamed for later use.
+ * Columns correctly renamed for later use
 #### Signal Indicators
- * Using EMA crossovers & overbought/oversold RSI to predict when the right time to buy, sell and hold is.
+ * Using EMA crossovers & overbought/oversold RSI and Bolinger Bands to predict when the right time to buy, sell and hold is.
 #### Machine Learning
  * We will be using the Logistic Regression model to predict the future portfolio value based on the selected cryptocurrencies.
-#### Neural Network (TensorFlow & Keras)
- * Test neural networks and compare the predictions with the machine learning predictions
+###  SVM Machine Learning
+  * We incorporated the SVM Machine Learning into the Trading Strategy to predict/forecast the crypto price. We then backtested the testing predictions.
+#### Neural Network (Keras)
+ * Test neural networks and compare the predictions with the machine learning predictions.
 #### Displaying Predicted Portfolio Outcomes
  * Using HVPlot
 #### Concluding Analysis
+ * Results
+ * BITCOIN
 
+
+ * ETHERIUM
+
+ * DOGE 
  
 ## Technology
 ### Programming: Python 
