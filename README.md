@@ -16,7 +16,7 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
 ## Data Preparation and Model Training
 #### Data Preparation
  * Data sourced from Yfinance 
- * Period used to backtest - 2years with 1 hour intervals
+ * Period used to test - 2years with 1 hour intervals
  * Hourly returns were calculated and nulls dropped
  * Nulls dropped
  * Columns correctly renamed for later use
