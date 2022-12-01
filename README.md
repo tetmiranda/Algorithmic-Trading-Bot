@@ -53,7 +53,7 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
     * Numpy - is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, 
       along with a large collection of high-level mathematical functions to operate on these arrays.
     * Finta - offers common financial technical indicator implemented in Pandas.
-    * Matplotib- is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
+    * Matplotib - is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
    
 ## Bot Team Members
    *  Rita Thomas
