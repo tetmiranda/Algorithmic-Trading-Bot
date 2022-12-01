@@ -10,7 +10,7 @@ Our project is to create an algorithmic trading bot with machine learning that w
 
 Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logic Regression, SVM, Neural Networks (Keras) and Random Classifier.  
 
-The indicators we used were BB(Boolinger Band), EMA( and RSI(Relative Strength Index) with entry and exit signals in order to predict the total of the profit and loss.
+The indicators we used were BB(Boolinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the total of the profit and loss.
 
  
 ## Data Preparation and Model Training
