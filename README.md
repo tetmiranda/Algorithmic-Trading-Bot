@@ -30,20 +30,34 @@ The indicators we used were BB(Bolinger Band), EMA(Expontential Moving Averages)
  * Test neural networks and compare the predictions with the machine learning predictions.
 #### Displaying Predicted Portfolio Outcomes
  * Using HVPlot
-#### Concluding Analysis
+#### Summary of the analysis
  * BITCOIN
 
 
  * ETHERIUM
+
+
 
  * DOGE 
  
 ## Technology
 ### Programming: Python 
 ### Libraries:
-    * Skit-learn
-    * Hvplot
-    * Numpy
-    * LogisticRegression model
-    * Prophet 
-    * Yfinance
+    * Pandas - Pandas is a Python library used for working with data sets. It has functions for analyzing, 
+      cleaning, exploring, and manipulating data.
+    * Yfinance - open source library to access the financial data available on Yahoo Finance. 
+    * Scikit-learn - is a free machine learining library for Python.  It features various algorithms like support vector machine, 
+      random forests, and k-neighbours, and it also supports Python numerical and scientific libraries like NumPy and SciPy .
+    * Hvplot - provides an alternative for the static plotting API provided by Pandas and other libraries, with by default 
+      an interactive Bokeh-based plotting API that supports panning, zooming, hovering, and clickable/selectable legends.
+    * Numpy - is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, 
+      along with a large collection of high-level mathematical functions to operate on these arrays.
+    * Finta - offers common financial technical indicator implemented in Pandas.
+    * Matplotib- is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
+   
+## Bot Team Members
+   *  Rita Thomas
+   *  Dennis Mader
+   *  Lachlan Andrews
+   *  David Newman
+   *  Florante Miranda 
