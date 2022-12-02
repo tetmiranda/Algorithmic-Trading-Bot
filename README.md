@@ -1,6 +1,6 @@
 # Background
 
-![project-2-challenge](Images/proj2-background2.JPG)
+![project-2-challenge](Images/proj2-background3.JPG)
 
 # Project Goal
 Create an algorithmic trading bot that successfully trades and outperforms the strategy of buying and holding.  The Crypto coins we have selected to use are Bitcoin, Ethereum and Dogecoin.  
