@@ -36,7 +36,7 @@ The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averag
  * Using HVPlot
  
 #### Summary of the analysis
- * BITCOIN
+ ### BITCOIN
 
 DATAFRAME
 
@@ -56,10 +56,6 @@ TOTAL PORTFOLIO VALUE
 
 Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10168.59 or 10.17%.
 In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8313.34 or -8.31%.
-
-SPLIT/TRAIN/TEST 
-
-<img width="499" alt="Screen Shot 2022-12-04 at 5 45 32 pm" src="https://user-images.githubusercontent.com/108632632/205478254-1fee4854-e581-4922-985f-aed29e1d8959.png">
 
 SVM 
 
@@ -84,11 +80,11 @@ RANDOM FOREST CLASSIFIER
 <img width="380" alt="Screen Shot 2022-12-04 at 5 56 31 pm" src="https://user-images.githubusercontent.com/108632632/205478547-180f3996-8b69-490c-b5f1-dd2948fa48ec.png">
 
 
- * ETHERIUM
+ ### ETHERIUM
 
 
 
- * DOGE 
+### DOGE 
  
 The precision (ratio of correct positive predictions to the total predicted positives) between the logistic regression and svm model is relatively similar with the exception of the svm training report, which shows a slight dip in the sell signals (-1). However, the logistic regression model shows a much higher yet still relatively weak recall (ratio of correct positive predictions to the total positives examples) when compared to the svm models. Furthermore, the logistic regression model has a higher accuracy when compared with the svc model.
  
