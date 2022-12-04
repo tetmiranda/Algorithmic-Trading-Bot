@@ -38,6 +38,51 @@ The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averag
 #### Summary of the analysis
  * BITCOIN
 
+DATAFRAME
+
+<img width="778" alt="Screen Shot 2022-12-04 at 5 38 12 pm" src="https://user-images.githubusercontent.com/108632632/205478052-d62b315b-c83c-41ef-bbc2-84ea67f0bb1e.png">
+
+TRADING SIGNAL USING RSI
+
+<img width="492" alt="Screen Shot 2022-12-04 at 5 40 46 pm" src="https://user-images.githubusercontent.com/108632632/205478133-607c8354-392b-4679-a615-92962e2ec716.png">
+
+GRAPH
+
+<img width="997" alt="Screen Shot 2022-12-04 at 5 41 51 pm" src="https://user-images.githubusercontent.com/108632632/205478158-82adae31-3495-4867-a30a-a7d3f6bbbd75.png">
+
+TOTAL PORTFOLIO VALUE
+
+<img width="1003" alt="Screen Shot 2022-12-04 at 5 43 23 pm" src="https://user-images.githubusercontent.com/108632632/205478197-51f13c74-3e6e-4864-a43b-a7bbab8d002e.png">
+
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10168.59 or 10.17%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8313.34 or -8.31%.
+
+SPLIT/TRAIN/TEST 
+
+<img width="499" alt="Screen Shot 2022-12-04 at 5 45 32 pm" src="https://user-images.githubusercontent.com/108632632/205478254-1fee4854-e581-4922-985f-aed29e1d8959.png">
+
+SVM 
+
+<img width="486" alt="Screen Shot 2022-12-04 at 5 53 16 pm" src="https://user-images.githubusercontent.com/108632632/205478461-ce115cb2-775b-44cd-ad53-269f2b3dfb9f.png">
+
+<img width="384" alt="Screen Shot 2022-12-04 at 5 48 13 pm" src="https://user-images.githubusercontent.com/108632632/205478339-85291ba7-f9c2-4adf-89e9-0c830bb774e9.png">
+
+LOGISTIC REGRESSION MODEL
+
+<img width="476" alt="Screen Shot 2022-12-04 at 5 54 21 pm" src="https://user-images.githubusercontent.com/108632632/205478486-9802b802-154a-4d55-bae2-32479fe1675a.png">
+
+<img width="381" alt="Screen Shot 2022-12-04 at 5 51 22 pm" src="https://user-images.githubusercontent.com/108632632/205478419-012c03ac-a5e5-4de3-9f49-c6c447c23aa1.png">
+
+NEURAL NETWORK
+
+<img width="381" alt="Screen Shot 2022-12-04 at 5 55 34 pm" src="https://user-images.githubusercontent.com/108632632/205478520-c45e50e7-4a91-475a-9768-e0062299523f.png">
+
+RANDOM FOREST CLASSIFIER
+
+<img width="447" alt="Screen Shot 2022-12-04 at 5 56 23 pm" src="https://user-images.githubusercontent.com/108632632/205478540-4d7e708b-3a45-4dcc-ada3-560592cc20ed.png">
+
+<img width="380" alt="Screen Shot 2022-12-04 at 5 56 31 pm" src="https://user-images.githubusercontent.com/108632632/205478547-180f3996-8b69-490c-b5f1-dd2948fa48ec.png">
+
 
  * ETHERIUM
 
