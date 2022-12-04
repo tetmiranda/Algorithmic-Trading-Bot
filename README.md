@@ -107,6 +107,7 @@ It is difficult to compare the neural network outcome with the machine learning 
       along with a large collection of high-level mathematical functions to operate on these arrays.
    * Finta - offers common financial technical indicator implemented in Pandas.
    * Matplotib - is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
+   * Tensorflow
    
 ## Bot Team Members
    *  Rita Thomas
