@@ -79,12 +79,13 @@ RANDOM FOREST CLASSIFIER
 
 <img width="380" alt="Screen Shot 2022-12-04 at 5 56 31 pm" src="https://user-images.githubusercontent.com/108632632/205478547-180f3996-8b69-490c-b5f1-dd2948fa48ec.png">
 
+We ran the above analysis for Etherium and Doge please feel free to review the notebooks specific to these codes.
 
- ### ETHERIUM
+The returns don't perform and we don't recommeding using the machine learning model with these indications.
 
+In summary, xxxxxx 
+ 
 
-
-### DOGE 
  
 The precision (ratio of correct positive predictions to the total predicted positives) between the logistic regression and svm model is relatively similar with the exception of the svm training report, which shows a slight dip in the sell signals (-1). However, the logistic regression model shows a much higher yet still relatively weak recall (ratio of correct positive predictions to the total positives examples) when compared to the svm models. Furthermore, the logistic regression model has a higher accuracy when compared with the svc model.
  
