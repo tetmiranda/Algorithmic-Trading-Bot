@@ -132,8 +132,7 @@ It is difficult to compare the neural network outcome with the machine learning 
      along with a large collection of high-level mathematical functions to operate on these arrays.
    * Finta - offers common financial technical indicator implemented in Pandas.
    * Matplotib - is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
-   * Keras - is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the          TensorFlow library.
-   * TensorFlow - is an open-sourced end-to-end platform, a library for multiple machine learning tasks, while Keras is a high-level neural network            library that runs on top of TensorFlow.
+   * TensorFlow - is an open-sourced end-to-end platform, a library for multiple machine learning tasks, while Keras is a high-level neural network          library that runs on top of TensorFlow.  Keras is an open-source software library that provides a Python interface for artificial neural                networks. Keras acts as an interface for the TensorFlow library.
    
 ## Bot Team Members
    *  Rita Thomas
