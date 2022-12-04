@@ -8,7 +8,7 @@ Create an algorithmic trading bot that successfully trades and outperforms the s
 ## About the project
 Our project is to create an algorithmic trading bot with machine learning that will generate profits at a speed and frequency that is not possible for human traders.  We have selected three crypto currencies to test our bot on (Bitcoin, Ethereum and Dogecoin). As the value of crypto is very volatile our aim is to offset some of this risk by introducing machine learning into our algorithim.  
 
-Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logistic Regression, SVM, Neural Networks (Keras) and Random Classifier.  
+Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logistic Regression, SVM, Neural Networks (Keras) and Random Forest Classifier.  
 
 The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the buy and sell signals.  Many of these indicators failed.  We used the RSI in our final trading strategy.  
 
@@ -29,8 +29,8 @@ The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averag
   * We incorporated the SVM Machine Learning into the Trading Strategy to predict/forecast the crypto price. We then backtested the testing predictions.
 #### Neural Network (Keras)
  * Test neural networks and compare the predictions with the machine learning predictions.
-###  Random Classifier
-
+#### Random Forest Classifier
+ * Random Forest is a supervised learning algorithm used for both classification and regression problems.  Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 
 #### Displaying Predicted Portfolio Outcomes
  * Using HVPlot
