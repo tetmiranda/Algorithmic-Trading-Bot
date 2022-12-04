@@ -40,44 +40,69 @@ The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averag
 
 DATAFRAME
 
-<img width="778" alt="Screen Shot 2022-12-04 at 5 38 12 pm" src="https://user-images.githubusercontent.com/108632632/205478052-d62b315b-c83c-41ef-bbc2-84ea67f0bb1e.png">
+<img width="790" alt="Screen Shot 2022-12-05 at 8 07 46 am" src="https://user-images.githubusercontent.com/108632632/205515686-5dec1fc3-9ed0-4dac-9585-b3bea2975c07.png">
 
-TRADING SIGNAL USING RSI
+EMA SIGNALS - ENTRY/EXIT
 
-<img width="492" alt="Screen Shot 2022-12-04 at 5 40 46 pm" src="https://user-images.githubusercontent.com/108632632/205478133-607c8354-392b-4679-a615-92962e2ec716.png">
+<img width="978" alt="Screen Shot 2022-12-05 at 8 14 08 am" src="https://user-images.githubusercontent.com/108632632/205516032-e5bc73c2-c2bc-45d2-9d47-baaa17f250ef.png">
 
-GRAPH
+EMA STRATEGY - TOTAL PORTFOLIO
 
-<img width="997" alt="Screen Shot 2022-12-04 at 5 41 51 pm" src="https://user-images.githubusercontent.com/108632632/205478158-82adae31-3495-4867-a30a-a7d3f6bbbd75.png">
+<img width="990" alt="Screen Shot 2022-12-05 at 8 15 49 am" src="https://user-images.githubusercontent.com/108632632/205516108-4f9ac047-83df-4893-a870-938f17238f11.png">
 
-TOTAL PORTFOLIO VALUE
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $5972.44 or 5.97%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8579.23 or -8.58%.
 
-<img width="1003" alt="Screen Shot 2022-12-04 at 5 43 23 pm" src="https://user-images.githubusercontent.com/108632632/205478197-51f13c74-3e6e-4864-a43b-a7bbab8d002e.png">
+RSI SIGNALS - ENTRY/EXIT
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10168.59 or 10.17%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8313.34 or -8.31%.
+<img width="988" alt="Screen Shot 2022-12-05 at 8 18 18 am" src="https://user-images.githubusercontent.com/108632632/205516214-575c75ec-cd61-4025-b8d3-b9e5a046ba02.png">
 
-SVM 
+This is the buy/sell chart.  Red indicates sell and Green indicates buy.
 
-<img width="486" alt="Screen Shot 2022-12-04 at 5 53 16 pm" src="https://user-images.githubusercontent.com/108632632/205478461-ce115cb2-775b-44cd-ad53-269f2b3dfb9f.png">
+RSI STRATEGY - TOTAL PORTFOLIO
 
-<img width="384" alt="Screen Shot 2022-12-04 at 5 48 13 pm" src="https://user-images.githubusercontent.com/108632632/205478339-85291ba7-f9c2-4adf-89e9-0c830bb774e9.png">
+<img width="1004" alt="Screen Shot 2022-12-05 at 8 19 09 am" src="https://user-images.githubusercontent.com/108632632/205516259-30ab58e6-2822-49b7-a9bf-8c914838d5d1.png">
+
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10417.29 or 110.42%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8579.23 or -8.58%.
+
+BOLLINGER BANDS - ENTRY/EXIT
+
+<img width="996" alt="Screen Shot 2022-12-05 at 8 21 01 am" src="https://user-images.githubusercontent.com/108632632/205516340-38e3aaf1-b077-4e55-8026-202c92abc70e.png">
+
+This is the buy/sell chart.  Red indicates sell and Green indicates buy.
+
+BOLLINGER BANDS STRATEGY - TOTAL PORTFOLIO
+
+<img width="996" alt="Screen Shot 2022-12-05 at 8 21 43 am" src="https://user-images.githubusercontent.com/108632632/205516376-1cfc52da-d928-4c76-a258-2448d2e0184d.png">
+
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $-16313.15 or 83.69%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8579.23 or -8.58%.
+
+SVM USING THE RSI STRATEGY
+
+<img width="634" alt="Screen Shot 2022-12-05 at 8 33 30 am" src="https://user-images.githubusercontent.com/108632632/205516831-25436893-4968-49a3-b230-9819b105b9a3.png">
+
+
+<img width="554" alt="Screen Shot 2022-12-05 at 8 26 38 am" src="https://user-images.githubusercontent.com/108632632/205516573-3e26efd2-a9db-44b3-ab09-6aa0210759d8.png">
 
 LOGISTIC REGRESSION MODEL
 
-<img width="476" alt="Screen Shot 2022-12-04 at 5 54 21 pm" src="https://user-images.githubusercontent.com/108632632/205478486-9802b802-154a-4d55-bae2-32479fe1675a.png">
+<img width="582" alt="Screen Shot 2022-12-05 at 8 34 16 am" src="https://user-images.githubusercontent.com/108632632/205516852-84d49d95-d42b-425b-9449-8db133a22a0b.png">
 
-<img width="381" alt="Screen Shot 2022-12-04 at 5 51 22 pm" src="https://user-images.githubusercontent.com/108632632/205478419-012c03ac-a5e5-4de3-9f49-c6c447c23aa1.png">
+<img width="673" alt="Screen Shot 2022-12-05 at 8 28 33 am" src="https://user-images.githubusercontent.com/108632632/205516684-93df2df9-05a0-46d8-a74d-75ee5ec22bc8.png">
 
 NEURAL NETWORK
 
-<img width="381" alt="Screen Shot 2022-12-04 at 5 55 34 pm" src="https://user-images.githubusercontent.com/108632632/205478520-c45e50e7-4a91-475a-9768-e0062299523f.png">
+<img width="560" alt="Screen Shot 2022-12-05 at 8 36 32 am" src="https://user-images.githubusercontent.com/108632632/205516956-16de8094-f718-408a-81a9-1e381f21ed00.png">
+
 
 RANDOM FOREST CLASSIFIER
 
-<img width="447" alt="Screen Shot 2022-12-04 at 5 56 23 pm" src="https://user-images.githubusercontent.com/108632632/205478540-4d7e708b-3a45-4dcc-ada3-560592cc20ed.png">
+<img width="635" alt="Screen Shot 2022-12-05 at 8 35 16 am" src="https://user-images.githubusercontent.com/108632632/205516893-9d9c1001-1902-4357-bfe9-c39b3aa2c2d2.png">
 
-<img width="380" alt="Screen Shot 2022-12-04 at 5 56 31 pm" src="https://user-images.githubusercontent.com/108632632/205478547-180f3996-8b69-490c-b5f1-dd2948fa48ec.png">
+<img width="554" alt="Screen Shot 2022-12-05 at 8 38 12 am" src="https://user-images.githubusercontent.com/108632632/205517003-7d4a890a-08f8-4899-b3e3-449d8ec0399a.png">
+
 
 We ran the above analysis for Etherium and Doge please feel free to review the notebooks specific to these codes.
 
@@ -97,17 +122,18 @@ It is difficult to compare the neural network outcome with the machine learning 
 #### Programming: Python 
 #### Libraries:
    * Pandas - Pandas is a Python library used for working with data sets. It has functions for analyzing, 
-      cleaning, exploring, and manipulating data.
+     cleaning, exploring, and manipulating data.
    * Yfinance - open source library to access the financial data available on Yahoo Finance. 
    * Scikit-learn - is a free machine learining library for Python.  It features various algorithms like support vector machine, 
-      random forests, and k-neighbours, and it also supports Python numerical and scientific libraries like NumPy and SciPy .
+     random forests, and k-neighbours, and it also supports Python numerical and scientific libraries like NumPy and SciPy .
    * Hvplot - provides an alternative for the static plotting API provided by Pandas and other libraries, with by default 
-      an interactive Bokeh-based plotting API that supports panning, zooming, hovering, and clickable/selectable legends.
+     an interactive Bokeh-based plotting API that supports panning, zooming, hovering, and clickable/selectable legends.
    * Numpy - is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, 
-      along with a large collection of high-level mathematical functions to operate on these arrays.
+     along with a large collection of high-level mathematical functions to operate on these arrays.
    * Finta - offers common financial technical indicator implemented in Pandas.
    * Matplotib - is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
-   * Tensorflow
+   * Keras - is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the          TensorFlow library.
+   * TensorFlow - is an open-sourced end-to-end platform, a library for multiple machine learning tasks, while Keras is a high-level neural network            library that runs on top of TensorFlow.
    
 ## Bot Team Members
    *  Rita Thomas
