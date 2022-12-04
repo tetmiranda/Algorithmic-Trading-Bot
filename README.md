@@ -81,7 +81,7 @@ RANDOM FOREST CLASSIFIER
 
 We ran the above analysis for Etherium and Doge please feel free to review the notebooks specific to these codes.
 
-The returns don't perform and we don't recommeding using the machine learning model with these indications.
+The returns don't perform and we don't recommeding using the machine learning model with these indicators.
 
 In summary, xxxxxx 
  
