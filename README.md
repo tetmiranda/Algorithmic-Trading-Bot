@@ -59,7 +59,7 @@ EMA STRATEGY - TOTAL PORTFOLIO
 <img width="990" alt="Screen Shot 2022-12-05 at 8 15 49 am" src="https://user-images.githubusercontent.com/108632632/205516108-4f9ac047-83df-4893-a870-938f17238f11.png">
 
 Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $4439.57 or 4.44%.
-In comparison, buying and holding 100000 worth of BTC over the same time period would end up with a return of -11201.77 or -11.2%.
+In comparison, buying and holding $100000 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
 
 RSI SIGNALS - ENTRY/EXIT
 
@@ -72,7 +72,7 @@ RSI STRATEGY - TOTAL PORTFOLIO
 <img width="1004" alt="Screen Shot 2022-12-05 at 8 19 09 am" src="https://user-images.githubusercontent.com/108632632/205516259-30ab58e6-2822-49b7-a9bf-8c914838d5d1.png">
 
 Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10157.56 or 110.16%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
+In comparison, buying and holding $100000 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
 
 BOLLINGER BANDS - ENTRY/EXIT
 
@@ -85,7 +85,7 @@ BOLLINGER BANDS STRATEGY - TOTAL PORTFOLIO
 <img width="996" alt="Screen Shot 2022-12-05 at 8 21 43 am" src="https://user-images.githubusercontent.com/108632632/205516376-1cfc52da-d928-4c76-a258-2448d2e0184d.png">
 
 Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $-16343.17 or 83.66%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
+In comparison, buying and holding $100000 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
 
 SVM USING THE RSI STRATEGY
 
