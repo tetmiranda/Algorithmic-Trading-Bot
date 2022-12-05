@@ -59,7 +59,7 @@ EMA STRATEGY - TOTAL PORTFOLIO
 <img width="990" alt="Screen Shot 2022-12-05 at 8 15 49 am" src="https://user-images.githubusercontent.com/108632632/205516108-4f9ac047-83df-4893-a870-938f17238f11.png">
 
 Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $4439.57 or 4.44%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
+In comparison, buying and holding 100000 worth of BTC over the same time period would end up with a return of -11201.77 or -11.2%.
 
 RSI SIGNALS - ENTRY/EXIT
 
