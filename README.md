@@ -58,8 +58,7 @@ EMA STRATEGY - TOTAL PORTFOLIO
 
 <img width="990" alt="Screen Shot 2022-12-05 at 8 15 49 am" src="https://user-images.githubusercontent.com/108632632/205516108-4f9ac047-83df-4893-a870-938f17238f11.png">
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $4439.57 or 4.44%.
-In comparison, buying and holding  100000 worth of BTC over the same time period would end up with a return of  -11201.77 or -11.2%.
+<img width="1092" alt="Screen Shot 2022-12-05 at 7 21 30 pm" src="https://user-images.githubusercontent.com/108632632/205588433-d3fe1054-adca-422e-8c94-3c44cdfc918e.png">
 
 RSI SIGNALS - ENTRY/EXIT
 
@@ -71,8 +70,7 @@ RSI STRATEGY - TOTAL PORTFOLIO
 
 <img width="1004" alt="Screen Shot 2022-12-05 at 8 19 09 am" src="https://user-images.githubusercontent.com/108632632/205516259-30ab58e6-2822-49b7-a9bf-8c914838d5d1.png">
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10157.56 or 110.16%.
-In comparison, buying and holding  100000 worth of BTC over the same time period would end up with a return of  -11201.77 or -11.2%.
+<img width="1085" alt="Screen Shot 2022-12-05 at 7 22 41 pm" src="https://user-images.githubusercontent.com/108632632/205588592-19a64691-c4f7-46bd-b5b3-dcb3e56149a1.png">
 
 BOLLINGER BANDS - ENTRY/EXIT
 
@@ -84,8 +82,7 @@ BOLLINGER BANDS STRATEGY - TOTAL PORTFOLIO
 
 <img width="996" alt="Screen Shot 2022-12-05 at 8 21 43 am" src="https://user-images.githubusercontent.com/108632632/205516376-1cfc52da-d928-4c76-a258-2448d2e0184d.png">
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $-16343.17 or 83.66%.
-In comparison, buying and holding  100000 worth of BTC over the same time period would end up with a return of  -11201.77 or -11.2%.
+<img width="1087" alt="Screen Shot 2022-12-05 at 7 24 55 pm" src="https://user-images.githubusercontent.com/108632632/205589156-2464e684-5339-4df4-9e88-58101fe728b7.png">
 
 SVM USING THE RSI STRATEGY
 
@@ -99,21 +96,21 @@ SVM USING THE RSI STRATEGY
 
 LOGISTIC REGRESSION MODEL
 
-<img width="582" alt="Screen Shot 2022-12-05 at 8 34 16 am" src="https://user-images.githubusercontent.com/108632632/205516852-84d49d95-d42b-425b-9449-8db133a22a0b.png">
+![Screen Shot 2022-12-05 at 6 54 48 pm](https://user-images.githubusercontent.com/108632632/205587528-d2f51c49-7711-414a-834f-46b8f6b13754.png)
 
 * Logistic Regression results for predicting RSI buy(1) and sell(-1) signals.
 
-![Screen Shot 2022-12-05 at 6 54 48 pm](https://user-images.githubusercontent.com/108632632/205587154-b6a9ea59-9150-4b22-b410-c136910d32bb.png)
+<img width="673" alt="Screen Shot 2022-12-05 at 8 28 33 am" src="https://user-images.githubusercontent.com/108632632/205588022-91af9c32-4afa-4574-92ab-7b7a17072217.png">
 
 * Graph of buy and hold portfolio vs portfolio using Logistic Regression predicted signals.  
 
 RANDOM FOREST CLASSIFIER
 
-<img width="635" alt="Screen Shot 2022-12-05 at 8 35 16 am" src="https://user-images.githubusercontent.com/108632632/205516893-9d9c1001-1902-4357-bfe9-c39b3aa2c2d2.png">
+![Screen Shot 2022-12-05 at 6 55 21 pm](https://user-images.githubusercontent.com/108632632/205587728-aeb53669-36df-408c-b381-f577c9e14b55.png)
 
 * Random Forest Classifier results for predicting RSI buy(1) and sell(-1) signals.
 
-![Screen Shot 2022-12-05 at 6 55 21 pm](https://user-images.githubusercontent.com/108632632/205587227-4a4801e1-bccb-4b52-ae16-0e069019f752.png)
+<img width="554" alt="Screen Shot 2022-12-05 at 8 38 12 am" src="https://user-images.githubusercontent.com/108632632/205587936-da423ac4-9c27-473d-b695-a8d85ee4a656.png">
 
 * Graph of buy and hold portfolio vs portfolio using Random Forest Classifier predicted signals.  
 
