@@ -31,7 +31,7 @@ The strategy for this project was to pick the best trading strategy by virtue of
 ####  Logistic Regression Model
  * An algorithm that is used in solving classification problems. It is a predictive analysis that describes data and explains the relationship between variables.
 ####  SVM  
-  *  Support vector machine is a model used for both classification and regression problems though it is mostly used to solve classification problems. .
+  *  Support vector machine is a model used for both classification and regression problems though it is mostly used to solve classification problems. 
 #### Random Forest Classifier
  * Random Forest is a supervised learning algorithm used for both classification and regression problems.  Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction. This algorithm is common in various industries such as banking and e-commerce to predict behavior and outcomes.
 #### Neural Network (Keras)
