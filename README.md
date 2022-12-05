@@ -20,14 +20,14 @@ The strategy for this project was to pick the best trading strategy by virtue of
  * Nulls dropped
  * Columns correctly renamed for later use
 #### Signal Indicators
- * EMA crossovers.
- * RSI.
- * Bollinger Bands.
+ * EMA crossovers
+ * RSI
+ * Bollinger Bands
 ### Machine Learning
 #### Features
-* RSI buy and sell signals.
-* Hourly BTC price.
-* Tading Volume.
+* RSI buy and sell signals
+* Hourly BTC price
+* Tading Volume
 ####  Logistic Regression Model
  * An algorithm that is used in solving classification problems. It is a predictive analysis that describes data and explains the relationship between variables.
 ####  SVM  
@@ -128,7 +128,7 @@ This primary goal of this project was to validate the feasibility of integrating
 
 The first and mostly likely explanation is that the RSI signals were not well suited for the high degree of volatility seen in the cryptomarket. The RSI strategy did give the best result of 10.16% profit during the back testing phase of the experiment when compared to the other trading strategies. However, this level of profit does not permit a high degree of flexibility or repetition. Additionally, back testing results of different time lengths (1 year vs 2 years) showed less profit with the RSI strategy (data not shown). Secondly, the length of training given to the machine learning algorithms did not incorporate all the large swings in price data seen in recent months. Therefore, it could be suggested that the machine learning modules did well at learning when to buy and sell based of the feature set given, however, the feature set was inadequate for turning a profit in such a volatile market space.    
 
-Based on these results incorporating a machine learning algorithm into a quantitative trading strategy could be beneficial, however, careful consideration must be given to the feature sets to be successful. Likewise, better preparation of data is also advised. Nevertheless, our findings suggest that the Random Forest Classifier was a clear front runner for this type of application among the machine learning modules chosen for this experiment. This is unsurprising as the Random Forest Classifier is often used in banking and market sectors due to being well suited for making predictions while able to mitigate the possibility of becoming overtrained to particular data sets
+Based on these results incorporating a machine learning algorithm into a quantitative trading strategy could be beneficial, however, careful consideration must be given to the feature sets to be successful. Likewise, better preparation of data is also advised. Nevertheless, our findings suggest that the Random Forest Classifier was a clear front runner for this type of application among the machine learning modules chosen for this experiment. This is unsurprising as the Random Forest Classifier is often used in banking and market sectors due to being well suited for making predictions while able to mitigate the possibility of becoming overtrained to particular data sets.
 
  
 ## Technology
