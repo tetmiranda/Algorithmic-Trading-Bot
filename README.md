@@ -3,14 +3,13 @@
 ![project-2-challenge](Images/proj2-background3.JPG)
 
 # Project Goal
-Create an algorithmic trading bot that successfully trades and outperforms the strategy of buying and holding.  The Crypto coins we have selected to use are Bitcoin, Ethereum and Dogecoin.  
+To investigate the potential feasibility of integrating different machine learning algorithms into conventional quantitative trading strategies with the aim of predicting buy and sell indicators within the cryptocurrency market space.  The cryptocurrency tokens selected for this anaylsis were Bitcoin, Ethereum, and Dogecoin.  
 
 ## About the project
-Our project is to create an algorithmic trading bot with machine learning that will generate profits at a speed and frequency that is not possible for human traders.  We have selected three crypto currencies to test our bot on (Bitcoin, Ethereum and Dogecoin). As the value of crypto is very volatile our aim is to offset some of this risk by introducing machine learning into our algorithim.  
+The aim of this project was to create an algorithmic trading bot coupled with machine learning functionality with the primary goal of predicting buy and sell signals in order to generate profits in a hypothetical portfolio that surpasses a simple buy and hold stratagem. For this analysis, three crypto currencies were selected for their varying degrees of volatility, these were Bitcoin, Ethereum, and Dogecoin. The indicators tested were BB(Bollinger Band), EMA(Expontential Moving Averages), and RSI(Relative Strength Index) with entry and exit signals in order to predict the buy and sell signals. Lastly, our analysis compared four machine learning python modules to determine which machine learning would be better suited for algorithm trading. The machine learning modules that were tested are Logistic Regression, SVM, Random Forest Classifier, and Neural Networks (Keras).  
 
-Part of our analysis was to compare four machine learning modules to determine which machine learning would be better suited.  The machine learning modules we are using are Logistic Regression, SVM, Neural Networks (Keras) and Random Forest Classifier.  
-
-The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averages) and RSI(Relative Strength Index) with entry and exit signals in order to predict the buy and sell signals.  Many of these indicators failed.  We used the RSI in our final trading strategy.  
+The strategy for this project was to pick the best trading strategy by virtue of profits generated during back testing and then test it against several machine learning packages to see which could best predict buy and sell indictors from the best trading strategy chosen. RSI was the clear winner for BTC and therefore was chosen to be tested against the chosen machine learning modules. This exercise was then repeated for ethereum and dogecoin, the results of which can be found in their respective notebooks.
+  
 
  
 ## Data Preparation and Model Training
@@ -21,17 +20,22 @@ The indicators we tested were BB(Bollinger Band), EMA(Expontential Moving Averag
  * Nulls dropped
  * Columns correctly renamed for later use
 #### Signal Indicators
- * Using EMA crossovers & overbought/oversold RSI and Bollinger Bands to predict when the right time to buy, sell and hold is.
+ * EMA crossovers.
+ * RSI.
+ * Bollinger Bands.
 ### Machine Learning
+#### Features
+* RSI buy and sell signals.
+* Hourly BTC price.
+* Tading Volume.
 ####  Logistic Regression Model
- * We will be using the Logistic Regression model to predict the future portfolio value based on the selected cryptocurrencies.
+ * An algorithm that is used in solving classification problems. It is a predictive analysis that describes data and explains the relationship between variables.
 ####  SVM  
-  * We incorporated the SVM Machine Learning into the Trading Strategy to predict/forecast the crypto price. We then backtested the testing predictions.
-#### Neural Network (Keras)
- * Test neural networks and compare the predictions with the machine learning predictions.
+  *  Support vector machine is a model used for both classification and regression problems though it is mostly used to solve classification problems. .
 #### Random Forest Classifier
- * Random Forest is a supervised learning algorithm used for both classification and regression problems.  Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
-
+ * Random Forest is a supervised learning algorithm used for both classification and regression problems.  Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction. This algorithm is common in various industries such as banking and e-commerce to predict behavior and outcomes.
+#### Neural Network (Keras)
+ * Keras is used by CERN, NASA, NIH, and many more scientific organizations around the world. Keras has the low-level flexibility to implement arbitrary research ideas.
 #### Displaying Predicted Portfolio Outcomes
  * Using HVPlot
  
@@ -42,81 +46,90 @@ DATAFRAME
 
 <img width="790" alt="Screen Shot 2022-12-05 at 8 07 46 am" src="https://user-images.githubusercontent.com/108632632/205515686-5dec1fc3-9ed0-4dac-9585-b3bea2975c07.png">
 
+* Screenshot of hourly BTC data before processing.
+
 EMA SIGNALS - ENTRY/EXIT
 
 <img width="978" alt="Screen Shot 2022-12-05 at 8 14 08 am" src="https://user-images.githubusercontent.com/108632632/205516032-e5bc73c2-c2bc-45d2-9d47-baaa17f250ef.png">
+
+* EMA buy and sell signals graphed against 2 years of BTC close price data.
 
 EMA STRATEGY - TOTAL PORTFOLIO
 
 <img width="990" alt="Screen Shot 2022-12-05 at 8 15 49 am" src="https://user-images.githubusercontent.com/108632632/205516108-4f9ac047-83df-4893-a870-938f17238f11.png">
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $5972.44 or 5.97%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8579.23 or -8.58%.
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $4439.57 or 4.44%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
 
 RSI SIGNALS - ENTRY/EXIT
 
 <img width="988" alt="Screen Shot 2022-12-05 at 8 18 18 am" src="https://user-images.githubusercontent.com/108632632/205516214-575c75ec-cd61-4025-b8d3-b9e5a046ba02.png">
 
-This is the buy/sell chart.  Red indicates sell and Green indicates buy.
+* RSI buy and sell signals graphed against 2 years of BTC close price data.
 
 RSI STRATEGY - TOTAL PORTFOLIO
 
 <img width="1004" alt="Screen Shot 2022-12-05 at 8 19 09 am" src="https://user-images.githubusercontent.com/108632632/205516259-30ab58e6-2822-49b7-a9bf-8c914838d5d1.png">
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10417.29 or 110.42%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8579.23 or -8.58%.
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $10157.56 or 110.16%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
 
 BOLLINGER BANDS - ENTRY/EXIT
 
 <img width="996" alt="Screen Shot 2022-12-05 at 8 21 01 am" src="https://user-images.githubusercontent.com/108632632/205516340-38e3aaf1-b077-4e55-8026-202c92abc70e.png">
 
-This is the buy/sell chart.  Red indicates sell and Green indicates buy.
+* Bollinger Band buy and sell signals graphed against 2 years of BTC close price data.
 
 BOLLINGER BANDS STRATEGY - TOTAL PORTFOLIO
 
 <img width="996" alt="Screen Shot 2022-12-05 at 8 21 43 am" src="https://user-images.githubusercontent.com/108632632/205516376-1cfc52da-d928-4c76-a258-2448d2e0184d.png">
 
-Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $-16313.15 or 83.69%.
-In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-8579.23 or -8.58%.
+Starting with a $100000.0 investment and using a 1 coin position size, the overall return of this algorithm is $-16343.17 or 83.66%.
+In comparison, buying and holding $100000.0 worth of BTC over the same time period would end up with a return of $-11201.77 or -11.2%.
 
 SVM USING THE RSI STRATEGY
 
 <img width="634" alt="Screen Shot 2022-12-05 at 8 33 30 am" src="https://user-images.githubusercontent.com/108632632/205516831-25436893-4968-49a3-b230-9819b105b9a3.png">
 
+* SVM results for predicting RSI buy(1) and sell(-1) signals.
 
 <img width="554" alt="Screen Shot 2022-12-05 at 8 26 38 am" src="https://user-images.githubusercontent.com/108632632/205516573-3e26efd2-a9db-44b3-ab09-6aa0210759d8.png">
+
+* Graph of buy and hold portfolio vs portfolio using SVM predicted signals.  
 
 LOGISTIC REGRESSION MODEL
 
 <img width="582" alt="Screen Shot 2022-12-05 at 8 34 16 am" src="https://user-images.githubusercontent.com/108632632/205516852-84d49d95-d42b-425b-9449-8db133a22a0b.png">
 
+* Logistic Regression results for predicting RSI buy(1) and sell(-1) signals.
+
 <img width="673" alt="Screen Shot 2022-12-05 at 8 28 33 am" src="https://user-images.githubusercontent.com/108632632/205516684-93df2df9-05a0-46d8-a74d-75ee5ec22bc8.png">
 
-NEURAL NETWORK
-
-<img width="560" alt="Screen Shot 2022-12-05 at 8 36 32 am" src="https://user-images.githubusercontent.com/108632632/205516956-16de8094-f718-408a-81a9-1e381f21ed00.png">
-
+* Graph of buy and hold portfolio vs portfolio using Logistic Regression predicted signals.  
 
 RANDOM FOREST CLASSIFIER
 
 <img width="635" alt="Screen Shot 2022-12-05 at 8 35 16 am" src="https://user-images.githubusercontent.com/108632632/205516893-9d9c1001-1902-4357-bfe9-c39b3aa2c2d2.png">
 
+* Random Forest Classifier results for predicting RSI buy(1) and sell(-1) signals.
+
+
 <img width="554" alt="Screen Shot 2022-12-05 at 8 38 12 am" src="https://user-images.githubusercontent.com/108632632/205517003-7d4a890a-08f8-4899-b3e3-449d8ec0399a.png">
 
+* Graph of buy and hold portfolio vs portfolio using Random Forest Classifier predicted signals.  
 
-We ran the above analysis for Etherium and Doge please feel free to review the notebooks specific to these codes.
+NEURAL NETWORK
 
-The returns don't perform and we don't recommeding using the machine learning model with these indicators.
+<img width="560" alt="Screen Shot 2022-12-05 at 8 36 32 am" src="https://user-images.githubusercontent.com/108632632/205516956-16de8094-f718-408a-81a9-1e381f21ed00.png">
 
-In summary, xxxxxx 
- 
+* Graph of buy and hold portfolio vs portfolio using Neural Network (Keras) predicted signals.  
 
- 
-The precision (ratio of correct positive predictions to the total predicted positives) between the logistic regression and svm model is relatively similar with the exception of the svm training report, which shows a slight dip in the sell signals (-1). However, the logistic regression model shows a much higher yet still relatively weak recall (ratio of correct positive predictions to the total positives examples) when compared to the svm models. Furthermore, the logistic regression model has a higher accuracy when compared with the svc model.
- 
-Interestingly, the predicted trading algorithm returns fairs better in the svm model compared to the regression model when plotted out. Though, based on this machine learning model reports, these graphs should be taken with a grain of salt.
+This primary goal of this project was to validate the feasibility of integrating machine learning algorithms with standard quantitative trading strategies in the field of cryptocurrencies. As mentioned before, RSI was the prevailing strategy chosen for machine learning as it had the best outcome for BTC with a profit of 10.16% over two years. The machine learning results indicate that all machine learning modules and neural networks performed well at predicting RSI buy and sell signals using RSI, BTC price, and volume data as features. The SVM and Logistic Regression modules scored a recall (ratio of correct positive predictions to the total positives examples) metric above 75%, whereas, the Random Forest Classifier module displayed the best results all round scoring 99%. Likewise, the neural network performed admirably with an accuracy of 99%. However, despite these high degrees in accuracy scores for predicting buy and sells signals we saw all machine learning portfolio lose more money when compared to a buy and hold strategy. It is difficult to definitively explain why this is the case, however, there are several factors that are likely to have contributed to these lacklustre results.   
 
-It is difficult to compare the neural network outcome with the machine learning reports due to different measures of accuracy. Nevertheless, the high degree of accuracy coupled with the neural network algorithm returns plot suggests that it is not a wise investment stratergy.
+The first and mostly likely explanation is that the RSI signals were not well suited for the high degree of volatility seen in the cryptomarket. The RSI strategy did give the best result of 10.16% profit during the back testing phase of the experiment when compared to the other trading strategies. However, this level of profit does not permit a high degree of flexibility or repetition. Additionally, back testing results of different time lengths (1 year vs 2 years) showed less profit with the RSI strategy (data not shown). Secondly, the length of training given to the machine learning algorithms did not incorporate all the large swings in price data seen in recent months. Therefore, it could be suggested that the machine learning modules did well at learning when to buy and sell based of the feature set given, however, the feature set was inadequate for turning a profit in such a volatile market space.    
+
+Based on these results incorporating a machine learning algorithm into a quantitative trading strategy could be beneficial, however, careful consideration must be given to the feature sets to be successful. Likewise, better preparation of data is also advised. Nevertheless, our findings suggest that the Random Forest Classifier was a clear front runner for this type of application among the machine learning modules chosen for this experiment. This is unsurprising as the Random Forest Classifier is often used in banking and market sectors due to being well suited for making predictions while able to mitigate the possibility of becoming overtrained to particular data sets
+
  
 ## Technology
 #### Programming: Python 
