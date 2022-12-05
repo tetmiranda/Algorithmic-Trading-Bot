@@ -42,49 +42,49 @@ The strategy for this project was to pick the best trading strategy by virtue of
 #### Summary of the analysis
  ### BITCOIN
 
-DATAFRAME
+**DATAFRAME**
 
 <img width="790" alt="Screen Shot 2022-12-05 at 8 07 46 am" src="https://user-images.githubusercontent.com/108632632/205515686-5dec1fc3-9ed0-4dac-9585-b3bea2975c07.png">
 
 * Screenshot of hourly BTC data before processing.
 
-EMA SIGNALS - ENTRY/EXIT
+**EMA SIGNALS - ENTRY/EXIT**
 
 <img width="978" alt="Screen Shot 2022-12-05 at 8 14 08 am" src="https://user-images.githubusercontent.com/108632632/205516032-e5bc73c2-c2bc-45d2-9d47-baaa17f250ef.png">
 
 * EMA buy and sell signals graphed against 2 years of BTC close price data.
 
-EMA STRATEGY - TOTAL PORTFOLIO
+**EMA STRATEGY - TOTAL PORTFOLIO**
 
 <img width="990" alt="Screen Shot 2022-12-05 at 8 15 49 am" src="https://user-images.githubusercontent.com/108632632/205516108-4f9ac047-83df-4893-a870-938f17238f11.png">
 
 <img width="1092" alt="Screen Shot 2022-12-05 at 7 21 30 pm" src="https://user-images.githubusercontent.com/108632632/205588433-d3fe1054-adca-422e-8c94-3c44cdfc918e.png">
 
-RSI SIGNALS - ENTRY/EXIT
+**RSI SIGNALS - ENTRY/EXIT**
 
 <img width="988" alt="Screen Shot 2022-12-05 at 8 18 18 am" src="https://user-images.githubusercontent.com/108632632/205516214-575c75ec-cd61-4025-b8d3-b9e5a046ba02.png">
 
 * RSI buy and sell signals graphed against 2 years of BTC close price data.
 
-RSI STRATEGY - TOTAL PORTFOLIO
+<img width="1087" alt="Screen Shot 2022-12-05 at 7 24 55 pm" src="https://user-images.githubusercontent.com/108632632/205589651-9f5792a8-bc8e-43af-a073-c7de282b3261.png">
 
 <img width="1004" alt="Screen Shot 2022-12-05 at 8 19 09 am" src="https://user-images.githubusercontent.com/108632632/205516259-30ab58e6-2822-49b7-a9bf-8c914838d5d1.png">
 
 <img width="1085" alt="Screen Shot 2022-12-05 at 7 22 41 pm" src="https://user-images.githubusercontent.com/108632632/205588592-19a64691-c4f7-46bd-b5b3-dcb3e56149a1.png">
 
-BOLLINGER BANDS - ENTRY/EXIT
+**BOLLINGER BANDS - ENTRY/EXIT**
 
 <img width="996" alt="Screen Shot 2022-12-05 at 8 21 01 am" src="https://user-images.githubusercontent.com/108632632/205516340-38e3aaf1-b077-4e55-8026-202c92abc70e.png">
 
 * Bollinger Band buy and sell signals graphed against 2 years of BTC close price data.
 
-BOLLINGER BANDS STRATEGY - TOTAL PORTFOLIO
+**BOLLINGER BANDS STRATEGY - TOTAL PORTFOLIO**
 
 <img width="996" alt="Screen Shot 2022-12-05 at 8 21 43 am" src="https://user-images.githubusercontent.com/108632632/205516376-1cfc52da-d928-4c76-a258-2448d2e0184d.png">
 
 <img width="1087" alt="Screen Shot 2022-12-05 at 7 24 55 pm" src="https://user-images.githubusercontent.com/108632632/205589156-2464e684-5339-4df4-9e88-58101fe728b7.png">
 
-SVM USING THE RSI STRATEGY
+**SVM USING THE RSI STRATEGY**
 
 ![Screen Shot 2022-12-05 at 6 53 55 pm](https://user-images.githubusercontent.com/108632632/205586973-dcb7c820-9e79-4c68-ae58-adcdf9836c37.png)
 
@@ -94,7 +94,7 @@ SVM USING THE RSI STRATEGY
 
 * Graph of buy and hold portfolio vs portfolio using SVM predicted signals.  
 
-LOGISTIC REGRESSION MODEL
+**LOGISTIC REGRESSION MODEL**
 
 ![Screen Shot 2022-12-05 at 6 54 48 pm](https://user-images.githubusercontent.com/108632632/205587528-d2f51c49-7711-414a-834f-46b8f6b13754.png)
 
@@ -104,7 +104,7 @@ LOGISTIC REGRESSION MODEL
 
 * Graph of buy and hold portfolio vs portfolio using Logistic Regression predicted signals.  
 
-RANDOM FOREST CLASSIFIER
+**RANDOM FOREST CLASSIFIER**
 
 ![Screen Shot 2022-12-05 at 6 55 21 pm](https://user-images.githubusercontent.com/108632632/205587728-aeb53669-36df-408c-b381-f577c9e14b55.png)
 
@@ -114,7 +114,7 @@ RANDOM FOREST CLASSIFIER
 
 * Graph of buy and hold portfolio vs portfolio using Random Forest Classifier predicted signals.  
 
-NEURAL NETWORK
+**NEURAL NETWORK**
 
 <img width="560" alt="Screen Shot 2022-12-05 at 8 36 32 am" src="https://user-images.githubusercontent.com/108632632/205516956-16de8094-f718-408a-81a9-1e381f21ed00.png">
 
