@@ -125,7 +125,14 @@ The first and mostly likely explanation is that the RSI signals were not well su
 
 Based on these results incorporating a machine learning algorithm into a quantitative trading strategy could be beneficial, however, careful consideration must be given to the feature sets to be successful. Likewise, better preparation of data is also advised. Nevertheless, our findings suggest that the Random Forest Classifier was a clear front runner for this type of application among the machine learning modules chosen for this experiment. This is unsurprising as the Random Forest Classifier is often used in banking and market sectors due to being well suited for making predictions while able to mitigate the possibility of becoming overtrained to particular data sets.
 
- 
+## Challenges/Next steps
+
+#Finding an indicator that was well suited for crypto currencies
+#Time constraints to test different features
+#Testing different signals and values
+#Adding in costs per trade#Testing the Algorithmic Trading Bot on Stocks
+#Amending the code to better reflect the buy and sell signals
+
 ## Technology
 #### Programming: Python 
 #### Libraries:
