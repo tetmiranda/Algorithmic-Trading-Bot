@@ -66,7 +66,6 @@ The strategy for this project was to pick the best trading strategy by virtue of
 
 * RSI buy and sell signals graphed against 2 years of BTC close price data.
 
-<img width="1087" alt="Screen Shot 2022-12-05 at 7 24 55 pm" src="https://user-images.githubusercontent.com/108632632/205589651-9f5792a8-bc8e-43af-a073-c7de282b3261.png">
 
 <img width="1004" alt="Screen Shot 2022-12-05 at 8 19 09 am" src="https://user-images.githubusercontent.com/108632632/205516259-30ab58e6-2822-49b7-a9bf-8c914838d5d1.png">
 
