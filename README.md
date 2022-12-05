@@ -89,7 +89,7 @@ In comparison, buying and holding  100000 worth of BTC over the same time period
 
 SVM USING THE RSI STRATEGY
 
-<img width="634" alt="Screen Shot 2022-12-05 at 8 33 30 am" src="https://user-images.githubusercontent.com/108632632/205516831-25436893-4968-49a3-b230-9819b105b9a3.png">
+![Screen Shot 2022-12-05 at 6 53 55 pm](https://user-images.githubusercontent.com/108632632/205586973-dcb7c820-9e79-4c68-ae58-adcdf9836c37.png)
 
 * SVM results for predicting RSI buy(1) and sell(-1) signals.
 
@@ -103,7 +103,7 @@ LOGISTIC REGRESSION MODEL
 
 * Logistic Regression results for predicting RSI buy(1) and sell(-1) signals.
 
-<img width="673" alt="Screen Shot 2022-12-05 at 8 28 33 am" src="https://user-images.githubusercontent.com/108632632/205516684-93df2df9-05a0-46d8-a74d-75ee5ec22bc8.png">
+![Screen Shot 2022-12-05 at 6 54 48 pm](https://user-images.githubusercontent.com/108632632/205587154-b6a9ea59-9150-4b22-b410-c136910d32bb.png)
 
 * Graph of buy and hold portfolio vs portfolio using Logistic Regression predicted signals.  
 
@@ -113,8 +113,7 @@ RANDOM FOREST CLASSIFIER
 
 * Random Forest Classifier results for predicting RSI buy(1) and sell(-1) signals.
 
-
-<img width="554" alt="Screen Shot 2022-12-05 at 8 38 12 am" src="https://user-images.githubusercontent.com/108632632/205517003-7d4a890a-08f8-4899-b3e3-449d8ec0399a.png">
+![Screen Shot 2022-12-05 at 6 55 21 pm](https://user-images.githubusercontent.com/108632632/205587227-4a4801e1-bccb-4b52-ae16-0e069019f752.png)
 
 * Graph of buy and hold portfolio vs portfolio using Random Forest Classifier predicted signals.  
 
